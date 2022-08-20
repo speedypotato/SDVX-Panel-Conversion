@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\KiCad\sdvx-panel-rgb\sdvx-panel-rgb.kicad_sch</source>
+    <date>8/19/2022 11:48:07 PM</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SDVX Panel Side RGB</title>
+        <company>Speedy Labs</company>
+        <rev>1</rev>
+        <date>2022-08-19</date>
+        <source>sdvx-panel-rgb.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3440cc05-de4b-4624-8632-eaca56084c58</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a955171-edaa-4d5f-ba9b-85988592413c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3245310f-8efc-471a-a309-e96e8b60c8c9</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a70543cb-3093-4b04-b30f-ee604c2230e0</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fcadadb-cf12-48e1-bc94-79ddc336a35a</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>935d3e1c-06fc-4794-a29a-78a8b2dde056</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7492d3a-4666-4ae3-82da-9e28783450df</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47a930c3-6040-47ec-a3e3-331d5ce0d244</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>s3b-xh-sm4-tb</value>
+      <footprint>user:S3B-XH-SM4-TB</footprint>
+      <fields>
+        <field name="LCSC">C161860</field>
+      </fields>
+      <libsource lib="agg-kicad" part="CONN_01x03" description=""/>
+      <property name="LCSC" value="C161860"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>706d54b8-9800-4eee-b55c-022ce62d6820</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>s3b-xh-sm4-tb</value>
+      <footprint>user:S3B-XH-SM4-TB</footprint>
+      <fields>
+        <field name="LCSC">C161860</field>
+      </fields>
+      <libsource lib="agg-kicad" part="CONN_01x03" description=""/>
+      <property name="LCSC" value="C161860"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>083b3965-3696-431e-bf0f-47db95ff63e2</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>WS2812B-4020</value>
+      <footprint>agg:WS2812B-4020</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965557</field>
+      </fields>
+      <libsource lib="agg-kicad" part="WS2812B-4020" description="Side-view RGB LED"/>
+      <property name="LCSC" value="C965557"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c16e3b8-eccc-4ab0-aa43-6df4126a29e2</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>WS2812B-4020</value>
+      <footprint>agg:WS2812B-4020</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965557</field>
+      </fields>
+      <libsource lib="agg-kicad" part="WS2812B-4020" description="Side-view RGB LED"/>
+      <property name="LCSC" value="C965557"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6c1e347-82ac-423b-b0a5-31aaa83b393f</tstamps>
+    </comp>
+    <comp ref="LED3">
+      <value>WS2812B-4020</value>
+      <footprint>agg:WS2812B-4020</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965557</field>
+      </fields>
+      <libsource lib="agg-kicad" part="WS2812B-4020" description="Side-view RGB LED"/>
+      <property name="LCSC" value="C965557"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b3952dc-c106-4748-8fa9-4ffdbd86dfba</tstamps>
+    </comp>
+    <comp ref="LED4">
+      <value>WS2812B-4020</value>
+      <footprint>agg:WS2812B-4020</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965557</field>
+      </fields>
+      <libsource lib="agg-kicad" part="WS2812B-4020" description="Side-view RGB LED"/>
+      <property name="LCSC" value="C965557"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e34e1401-6c6c-4bc5-b5af-9bf1ba03ed18</tstamps>
+    </comp>
+    <comp ref="LED5">
+      <value>WS2812B-4020</value>
+      <footprint>agg:WS2812B-4020</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965557</field>
+      </fields>
+      <libsource lib="agg-kicad" part="WS2812B-4020" description="Side-view RGB LED"/>
+      <property name="LCSC" value="C965557"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c431024-cefc-4187-818b-b84cab454042</tstamps>
+    </comp>
+    <comp ref="LED6">
+      <value>WS2812B-4020</value>
+      <footprint>agg:WS2812B-4020</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965557</field>
+      </fields>
+      <libsource lib="agg-kicad" part="WS2812B-4020" description="Side-view RGB LED"/>
+      <property name="LCSC" value="C965557"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15f34fab-29a6-4a87-af44-06b695129c85</tstamps>
+    </comp>
+    <comp ref="LED7">
+      <value>WS2812B-4020</value>
+      <footprint>agg:WS2812B-4020</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965557</field>
+      </fields>
+      <libsource lib="agg-kicad" part="WS2812B-4020" description="Side-view RGB LED"/>
+      <property name="LCSC" value="C965557"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56a9e980-c6c5-4e68-b94a-6542a114d3cd</tstamps>
+    </comp>
+    <comp ref="LED8">
+      <value>WS2812B-4020</value>
+      <footprint>agg:WS2812B-4020</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965557</field>
+      </fields>
+      <libsource lib="agg-kicad" part="WS2812B-4020" description="Side-view RGB LED"/>
+      <property name="LCSC" value="C965557"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70b64699-3525-4544-be41-3cdb5229ad08</tstamps>
+    </comp>
+    <comp ref="Logo1">
+      <value>SpeedyLabs</value>
+      <footprint>logo:logo_small</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3eecae54-82a6-44fe-b1e7-745b421d69cc</tstamps>
+    </comp>
+    <comp ref="Logo2">
+      <value>SpeedyLabs</value>
+      <footprint>logo:logo_small</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sdvx-panel-rgb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ccbc3e1-355f-4d55-ac7e-8bb1a7d38514</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="agg-kicad" part="CONN_01x03">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="WS2812B-4020">
+      <description>Side-view RGB LED</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">WS2812B-4020</field>
+        <field name="Footprint">agg:WS2812B-4020</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="input"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="DOUT" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="agg-kicad">
+      <uri>D:\KiCad\sdvx-panel-rgb/Libraries/agg-kicad-master/agg-kicad.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="5v">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="LED1" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED2" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED3" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED4" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED5" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED6" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED7" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED8" pin="2" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="LED1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED4" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED6" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED7" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="LED8" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="LED8" pin="3" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="5" name="Net-(LED1-Pad3)">
+      <node ref="LED1" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED2" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(LED2-Pad3)">
+      <node ref="LED2" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED3" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(LED3-Pad3)">
+      <node ref="LED3" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED4" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(LED4-Pad3)">
+      <node ref="LED4" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED5" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(LED5-Pad3)">
+      <node ref="LED5" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED6" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(LED6-Pad3)">
+      <node ref="LED6" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED7" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(LED7-Pad3)">
+      <node ref="LED7" pin="3" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED8" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "agg-kicad")(type "KiCad")(uri "${KIPRJMOD}/Libraries/agg-kicad-master/agg-kicad.kicad_sym")(options "")(descr ""))
+  (lib (name "user")(type "Legacy")(uri "${KIPRJMOD}/Libraries/kicad-library-master/user.lib")(options "")(descr ""))
+)

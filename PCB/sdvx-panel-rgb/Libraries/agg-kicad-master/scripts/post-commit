@@ -1,0 +1,9 @@
+#!/bin/bash
+make compile-verify > /dev/null
+if [ $? -ne 0 ]
+then
+    echo "Note: Compiled files outdated, recompiling and committing."
+    make compile
+    git add agg-kicad.kicad_sym
+    git commit -m "Rebuild compiled files"
+fi

@@ -1,0 +1,38 @@
+Source:,D:\KiCad\sdvx-panel-rgb\sdvx-panel-rgb.kicad_sch,,,,,,
+Date:,8/19/2022 23:46,,,,,,
+Tool:,Eeschema (6.0.2),,,,,,
+Generator:,C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,
+Component Count:,20,,,,,,
+,,,,,,,
+Individual Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,LCSC
+,,C1,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,C1525
+,,C2,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,C1525
+,,C3,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,C1525
+,,C4,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,C1525
+,,C5,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,C1525
+,,C6,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,C1525
+,,C7,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,C1525
+,,C8,100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,C1525
+,,J1,s3b-xh-sm4-tb,agg-kicad:CONN_01x03,user:S3B-XH-SM4-TB,,C161860
+,,J2,s3b-xh-sm4-tb,agg-kicad:CONN_01x03,user:S3B-XH-SM4-TB,,C161860
+,,LED1,WS2812B-4020,agg-kicad:WS2812B-4020,agg:WS2812B-4020,https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf,C965557
+,,LED2,WS2812B-4020,agg-kicad:WS2812B-4020,agg:WS2812B-4020,https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf,C965557
+,,LED3,WS2812B-4020,agg-kicad:WS2812B-4020,agg:WS2812B-4020,https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf,C965557
+,,LED4,WS2812B-4020,agg-kicad:WS2812B-4020,agg:WS2812B-4020,https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf,C965557
+,,LED5,WS2812B-4020,agg-kicad:WS2812B-4020,agg:WS2812B-4020,https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf,C965557
+,,LED6,WS2812B-4020,agg-kicad:WS2812B-4020,agg:WS2812B-4020,https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf,C965557
+,,LED7,WS2812B-4020,agg-kicad:WS2812B-4020,agg:WS2812B-4020,https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf,C965557
+,,LED8,WS2812B-4020,agg-kicad:WS2812B-4020,agg:WS2812B-4020,https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf,C965557
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Collated Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,LCSC
+1,8,"C1, C2, C3, C4, C5, C6, C7, C8",100nF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,C1525
+2,2,"J1, J2",s3b-xh-sm4-tb,agg-kicad:CONN_01x03,user:S3B-XH-SM4-TB,,C161860
+3,8,"LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8",WS2812B-4020,agg-kicad:WS2812B-4020,agg:WS2812B-4020,https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf,C965557

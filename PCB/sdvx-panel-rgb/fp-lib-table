@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "agg")(type "KiCad")(uri "${KIPRJMOD}/Libraries/agg-kicad-master/agg.pretty")(options "")(descr ""))
+  (lib (name "user")(type "KiCad")(uri "${KIPRJMOD}/Libraries/kicad-library-master/user.pretty")(options "")(descr ""))
+  (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/Libraries/logo.pretty")(options "")(descr ""))
+)
