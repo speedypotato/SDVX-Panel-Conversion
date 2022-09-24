@@ -1,0 +1,5 @@
+-box needs holes for mounting hole l brackets
+-usb cutout/mount
+-arduino mount
+
+maybe rgb strip + 3d printed enclosure
