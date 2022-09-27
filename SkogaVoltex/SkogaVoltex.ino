@@ -1,3 +1,8 @@
+/**
+ * Originally written by Skogaby
+ * Modified by SpeedyPotato
+ */
+
 #define cbi(sfr, bit) (_SFR_BYTE(sfr) &= ~_BV(bit))
 #define sbi(sfr, bit) (_SFR_BYTE(sfr) |= _BV(bit))
 
@@ -10,7 +15,7 @@
 
 // Pin setup
 #define ADC_MAX 1024
-#define NUM_BUTTONS 7
+#define NUM_BUTTONS 9
 #define NUM_KNOBS 2
 #define NUM_LED_STRIPS 2
 #define NUM_LEDS_PER_STRIP 3
@@ -21,8 +26,8 @@
 #define NUMBER_OF_SINGLE 7
 #define NUMBER_OF_RGB 1
 
-bool updateLights = false;
 bool lightStates[NUMBER_OF_SINGLE] = { false };
+unsigned long lightTimestamp = 0;
 
 typedef struct {
   uint8_t brightness;
@@ -36,11 +41,11 @@ typedef struct {
 
 // Main output
 Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID, JOYSTICK_TYPE_GAMEPAD, NUM_BUTTONS, 0,
- true, true, true, true, true, true, false, false, false, false, false);
+ true, true, false, false, false, false, false, false, false, false, false);
 
 // Button pins
-const byte buttonLightPins[NUM_BUTTONS] = { 0, 1, 2, 3, 4, 5, 6 };
-const byte buttonInputPins[NUM_BUTTONS] = { 7, 8, 9, 10, 11, 12, 13 };
+const byte buttonLightPins[NUM_BUTTONS] = { 0, 1, 2, 3, 4, 5, 19, 19, 6 };
+const byte buttonInputPins[NUM_BUTTONS] = { 7, 8, 9, 10, 11, 12, 18, 18, 13 };
 const byte knobPin1 = A0;
 const byte knobPin2 = A1;
 const byte ledPin1 = A2;
@@ -49,6 +54,8 @@ CRGB leds[NUM_LED_STRIPS][NUM_LEDS_PER_STRIP];
 
 // Button debounce objects
 const Bounce buttons[NUM_BUTTONS] = {
+  Bounce(),
+  Bounce(),
   Bounce(),
   Bounce(),
   Bounce(),
@@ -120,8 +127,7 @@ void light_update(SingleLED* single_leds, RGBLed* rgb_leds) {
   // Read the RGB lights
   CRGB color = CRGB(rgb_leds[0].r, rgb_leds[0].g, rgb_leds[0].b);
   setAllLeds(color);
-
-  updateLights = true;
+  lightTimestamp = millis();
 }
 
 /**
@@ -142,15 +148,21 @@ void loop() {
   Joystick.setXAxis(leftKnob.getValue());
   Joystick.setYAxis(rightKnob.getValue());
   Joystick.sendState();
-
-  // Update the lights as necessary
-  if (updateLights) {
-    for (int i = 0; i < NUMBER_OF_SINGLE; i++) {
+  
+  if (lightTimestamp + 1000 < millis()) {
+    // Update the lights as reactive
+    for (int i = 0; i < NUMBER_OF_SINGLE - 1; i++) {
+      digitalWrite(buttonLightPins[i], !buttons[i].read());
+    }
+    digitalWrite(buttonLightPins[NUM_BUTTONS - 1], !buttons[NUM_BUTTONS - 1].read());
+  } else {
+    // Update the lights as necessary
+    for (int i = 0; i < NUMBER_OF_SINGLE - 1; i++) {
       digitalWrite(buttonLightPins[i], lightStates[i]);
     }
-
-    FastLED.show();
+    digitalWrite(buttonLightPins[NUM_BUTTONS - 1], lightStates[NUMBER_OF_SINGLE - 1]);
   }
+  FastLED.show();
 }
 
 /**
