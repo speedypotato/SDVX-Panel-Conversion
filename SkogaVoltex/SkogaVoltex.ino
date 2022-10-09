@@ -18,7 +18,7 @@
 #define NUM_BUTTONS 9
 #define NUM_KNOBS 2
 #define NUM_LED_STRIPS 2
-#define NUM_LEDS_PER_STRIP 3
+#define NUM_LEDS_PER_STRIP 31
 #define LED_TYPE WS2812B
 #define LED_ORDER GRB
 
@@ -45,7 +45,7 @@ Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID, JOYSTICK_TYPE_GAMEPAD, NUM_BUTTON
 
 // Button pins
 const byte buttonLightPins[NUM_BUTTONS] = { 0, 1, 2, 3, 4, 5, 19, 19, 6 };
-const byte buttonInputPins[NUM_BUTTONS] = { 7, 8, 9, 10, 11, 12, 18, 18, 13 };
+const byte buttonInputPins[NUM_BUTTONS] = { 7, 8, 9, 10, 11, 12, 20, 20, 13 };
 const byte knobPin1 = A0;
 const byte knobPin2 = A1;
 const byte ledPin1 = A2;
@@ -90,6 +90,7 @@ void setup() {
 
   // Initialize the IO pins
   for (int i = 0; i < NUM_BUTTONS; i++) {
+    if (buttonInputPins[i] == 20) continue;
     pinMode(buttonLightPins[i], OUTPUT);
     buttons[i].attach(buttonInputPins[i], INPUT_PULLUP);
     buttons[i].interval(5);
@@ -103,15 +104,9 @@ void setup() {
   FastLED.addLeds<LED_TYPE, ledPin2, LED_ORDER>(leds[1], NUM_LEDS_PER_STRIP);
 
   // Boot LED sequence
-  for (int i = 0; i < 3; i++) {
-    setAllLeds(CRGB::Blue);
-    FastLED.show();
-    delay(1000);
-    
-    setAllLeds(CRGB::Black);
-    FastLED.show();
-    delay(1000);
-  }
+  FastLED.setBrightness(128);
+  setAllLeds(CRGB::Blue);
+  FastLED.show();
 }
 
 /**
@@ -136,6 +131,7 @@ void light_update(SingleLED* single_leds, RGBLed* rgb_leds) {
 void loop() {
   // Read the button states
   for (int i = 0; i < NUM_BUTTONS; i++) {
+    if (buttonInputPins[i] == 20) continue;
     buttons[i].update();
     Joystick.setButton(i, !buttons[i].read());
   }
