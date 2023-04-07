@@ -16,7 +16,6 @@ requires:
 - 3d printed parts: 4 corner_bracket, 2 back_mount, 2 front_mount, 1 usb_mount, 1 arduino_leonaro_mount, 1 led_3dp, and 1 led_3dp but print mirrored
 - 3m mounting tape for arduino and led sides
 - m3x6 arduino
-- m3x20 edges
 - m3x16 corner brackets
 - m4x12 panel to box mount
 - m3 nuts
@@ -30,8 +29,7 @@ requires:
 
 Assembly:  
 - Note: I recommend doing a washer wherever a screw head touches wood or a 3d print.
-- screw together box sides
-- screw in corner pieces
+- screw together box with corner pieces
 - glue usb c - micro b extender into the usb holder
 - screw in usb holder
 - screw in front and back 3d printed mounts to box, don't forget to add nuts to all 3 points
